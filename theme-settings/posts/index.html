@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/next/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/next/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/next/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/next/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/next/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"mopsite.github.io","root":"/next/","images":"/next/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/next/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/next/js/config.js"></script>
+<meta name="description" content="文章摘要通常需要在主页中显示文章的部分内容，然后提供指向完整文章的链接。NexT 提供了两种方法来控制文章在主页中的显示方式，换句话说，你可以使用以下方式来显示文章摘要和阅读更多按钮。 Tag moreexcerpt_description在文章中手动插入&lt;!-- more --&gt;标签，该标签之后的内容将会作为文章摘要显示在主页中；该标签之后的内容将会替换为阅读更多按钮。这也是 Hex">
+<meta property="og:type" content="website">
+<meta property="og:title" content="文章">
+<meta property="og:url" content="https://mopsite.github.io/next/theme-settings/posts/index.html">
+<meta property="og:site_name" content="Theme NexT">
+<meta property="og:description" content="文章摘要通常需要在主页中显示文章的部分内容，然后提供指向完整文章的链接。NexT 提供了两种方法来控制文章在主页中的显示方式，换句话说，你可以使用以下方式来显示文章摘要和阅读更多按钮。 Tag moreexcerpt_description在文章中手动插入&lt;!-- more --&gt;标签，该标签之后的内容将会作为文章摘要显示在主页中；该标签之后的内容将会替换为阅读更多按钮。这也是 Hex">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-24T04:29:29.000Z">
+<meta property="article:modified_time" content="2021-11-15T17:00:54.306Z">
+<meta property="article:author" content="NexT">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://mopsite.github.io/next/theme-settings/posts/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://mopsite.github.io/next/theme-settings/posts/index.html","path":"theme-settings/posts/index.html","title":"文章"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>文章 | Theme NexT
+</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/next/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/next/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Theme NexT</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        
+            
+  <li class="menu-item menu-item-开始使用"><a href="/next/getting-start/" rel="section"><i class="fa fa-bell fa-fw"></i>开始使用</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-主题设置"><a href="/next/theme-settings/" rel="section"><i class="fa fa-star fa-fw"></i>主题设置</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-第三方服务"><a href="/next/third-party-services/" rel="section"><i class="fa fa-suitcase fa-fw"></i>第三方服务</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-标签插件"><a href="/next/tag-plugins/" rel="section"><i class="fa fa-tags fa-fw"></i>标签插件</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-高级设置"><a href="/next/advanced-settings/" rel="section"><i class="fa fa-cog fa-fw"></i>高级设置</a></li>
+
+
+      
+        <li class="menu-item menu-item-故障排除"><a href="/next/troubleshooting/" rel="section"><i class="fa fa-times-circle fa-fw"></i>故障排除</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81"><span class="nav-number">1.</span> <span class="nav-text">文章摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%B4%E9%83%A8%E4%BF%A1%E6%81%AF"><span class="nav-number">2.</span> <span class="nav-text">头部信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%AD%97%E6%95%B0"><span class="nav-number">3.</span> <span class="nav-text">文章字数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E7%AD%BE%E5%9B%BE%E6%A0%87"><span class="nav-number">4.</span> <span class="nav-text">标签图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD"><span class="nav-number">5.</span> <span class="nav-text">打赏功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E6%B3%A8%E6%88%91"><span class="nav-number">6.</span> <span class="nav-text">关注我</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E6%96%87%E7%AB%A0"><span class="nav-number">7.</span> <span class="nav-text">相关文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91"><span class="nav-number">8.</span> <span class="nav-text">文章编辑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%AF%BC%E8%88%AA"><span class="nav-number">9.</span> <span class="nav-text">文章导航</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="NexT"
+      src="/next/images/avatar.svg">
+  <p class="site-author-name" itemprop="name">NexT</p>
+  <div class="site-description" itemprop="description">优雅且强大的 Hexo 主题</div>
+</div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title">
+      
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/git" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;git">Git</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/hexo" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;hexo">Hexo</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/fontawesome" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;fontawesome">FontAwesome</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+  
+
+      
+      
+
+      
+
+        
+        <ul class="sub-menu menu">
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-侧边栏"><a href="/next/theme-settings/sidebar/" rel="section"><i class="fa fa-bars fa-fw"></i>侧边栏</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-页脚"><a href="/next/theme-settings/footer/" rel="section"><i class="fa fa-sticky-note fa-fw"></i>页脚</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-文章"><a href="/next/theme-settings/posts/" rel="section"><i class="fa fa-paragraph fa-fw"></i>文章</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-自定义页面"><a href="/next/theme-settings/custom-pages/" rel="section"><i class="fa fa-swatchbook fa-fw"></i>自定义页面</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-其它设置"><a href="/next/theme-settings/miscellaneous/" rel="section"><i class="fa fa-university fa-fw"></i>其它设置</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-国际化"><a href="/next/theme-settings/internationalization/" rel="section"><i class="fa fa-globe fa-fw"></i>国际化</a></li>
+
+
+          
+        </ul>
+        
+
+        
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+  
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">文章
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/next/theme-settings/">THEME-SETTINGS</a></li>
+          <li>POSTS</li>
+        
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <h3 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h3><p>通常需要在主页中显示文章的部分内容，然后提供指向完整文章的链接。NexT 提供了两种方法来控制文章在主页中的显示方式，换句话说，你可以使用以下方式来显示文章摘要和阅读更多按钮。</p>
+<div class="tabs" id="preamble"><ul class="nav-tabs"><li class="tab active"><a href="#preamble-1">Tag more</a></li><li class="tab"><a href="#preamble-2">excerpt_description</a></li></ul><div class="tab-content"><div class="tab-pane active" id="preamble-1"><p>在文章中手动插入<code>&lt;!-- more --&gt;</code>标签，该标签之后的内容将会作为文章摘要显示在主页中；该标签之后的内容将会替换为阅读更多按钮。这也是 Hexo 的推荐用法。</p></div><div class="tab-pane" id="preamble-2"><p>如果你在文章的 Front-matter 部分中设置了<code>descritption</code>，并将它的值设置为了你的文章摘要，NexT 会将该值作为主页中的文章摘要。如果没有设置该值，则文章的全部内容都将作为文章摘要。</p>
+<p>你可以将 <mark class="label primary">主题配置文件</mark> 中的<code>excerpt_description</code>值修改为 false 来禁用它。</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">excerpt_description:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<div class="note info"><p>推荐使用<code>&lt;!-- more --&gt;</code>（第一种方式），它不仅可以更好地控制你想要展示的内容，还可以让 Hexo 插件轻松使用它。</p>
+</div>
+
+<h3 id="头部信息"><a href="#头部信息" class="headerlink" title="头部信息"></a>头部信息</h3><p>NexT 支持显示文章创建日期、修改日期及分类等头部信息。</p>
+<div class="tabs" id="meta"><ul class="nav-tabs"><li class="tab active"><a href="#meta-1">item_text</a></li><li class="tab"><a href="#meta-2">created_at</a></li><li class="tab"><a href="#meta-3">updated_at</a></li><li class="tab"><a href="#meta-4">categories</a></li></ul><div class="tab-content"><div class="tab-pane active" id="meta-1"><p>默认情况下，NexT 显示文章的头部信息。你可以通过将<code>post_meta.item_text</code>选项设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="meta-2"><p>默认情况下，NexT 在文章的头部信息中显示文章的创建日期。你可以通过将<code>post_meta.created_at</code>选项设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="meta-3"><div class="note warning"><p>确保你在 <mark class="label info">站点配置文件</mark> 中正确设置了<code>use_date_updated</code>和<code>updated_option</code>，否则该选项不会生效。详见 <a target="_blank" rel="noopener" href="https://mopsite.gitee.io/hexo/started/configuration/#%E6%97%A5%E6%9C%9F-%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F">日期-时间格式</a>。</p>
+</div>
+
+<p>默认情况下，NexT 在文章的头部信息中显示文章的更新（编辑）日期。你可以通过将<code>post_meta.updated_at.enable</code>选项设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>如果更新日期和创建日期相同，则会显示编辑时间。你可以通过将<code>post_meta.updated_at.another_day</code>设置为 false 来禁用它：</p>
+<ul>
+<li>如果为 true，则仅在更新日期和创建日期不同时，才显示更新日期。</li>
+<li>如果在文章创建的同一天编辑，编辑时间将显示在创建时间的<code>title</code>属性中。</li>
+<li>如果为 false，而编辑时间和创建时间为同一天，则只显示编辑时间。</li>
+</ul>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="meta-4"><p>默认情况下，NexT 在文章的头部信息中显示文章的分类。你可以通过将<code>post_meta.categories</code>选项设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<h3 id="文章字数"><a href="#文章字数" class="headerlink" title="文章字数"></a>文章字数</h3><p>首先，在站点根目录下执行以下命令安装 hexo-word-counter 插件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-word-counter</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>然后在 <mark class="label info">站点配置文件</mark> 中通过以下任意选项来激活该插件：</p>
+<div class="tabs" id="word-counter"><ul class="nav-tabs"><li class="tab active"><a href="#word-counter-1">symbols</a></li><li class="tab"><a href="#word-counter-2">time</a></li><li class="tab"><a href="#word-counter-3">total_symbols</a></li><li class="tab"><a href="#word-counter-4">total_time</a></li><li class="tab"><a href="#word-counter-5">awl</a></li><li class="tab"><a href="#word-counter-6">wpm</a></li></ul><div class="tab-content"><div class="tab-pane active" id="word-counter-1"><p>NexT 默认在文章头部信息中显示文章字数。你可以通过在 <mark class="label info">站点配置文件</mark> 中将<code>symbols_count_time.symbols</code>设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="word-counter-2"><p>NexT 默认在文章头部信息中显示文章的大致阅读时间。你可以通过在 <mark class="label info">站点配置文件</mark> 中将<code>symbols_count_time.time</code>设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="word-counter-3"><p>NexT 默认在文章头部信息中显示所有文章的字数。你可以通过在 <mark class="label info">站点配置文件</mark> 中将<code>symbols_count_time.total_symbls</code>设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">total_symbls:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="word-counter-4"><p>NexT 默认在文章头部信息中显示所有文章的大致阅读时间。你可以通过在 <mark class="label info">站点配置文件</mark> 中将<code>symbols_count_time.total_time</code>设置为 false 来禁用它：</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="word-counter-5"><p><code>awl</code>表示平均单词长度（单词中的字符数），相关信息你可以在 <a target="_blank" rel="noopener" href="https://charactercounttool.com/">这里</a> 查看。</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="word-counter-6"><p><code>wpm</code>表示每分钟的平均字数，相关信息你可以在 <a target="_blank" rel="noopener" href="https://wordcounter.net/">这里</a> 查看。</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<p>启用插件后，你可以在 <mark class="label primary">主题配置文件</mark> 的<code>symbols_count_time</code>中调整部分选项：</p>
+<div class="tabs" id="count_time"><ul class="nav-tabs"><li class="tab active"><a href="#count_time-1">separated_meta</a></li><li class="tab"><a href="#count_time-2">item_text_total</a></li></ul><div class="tab-content"><div class="tab-pane active" id="count_time-1"><p>NexT 默认将文章字数和估计阅读时间分别显示在单独的行。你可以通过将<code>symbols_count_time.separated_meta</code>修改为 false 来显示为一行。</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="count_time-2"><p>NexT 默认不会在页脚中显示字数和估计阅读时间，你可以将<code>symbols_count_time.item_text_total</code>修改为 false 来启用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<h3 id="标签图标"><a href="#标签图标" class="headerlink" title="标签图标"></a>标签图标</h3><p>默认情况下，文章底部的标签左边会有一个<code>#</code>符号。如果你喜欢图标而不是符号，可以像下面这样配置 <mark class="label primary">主题配置文件</mark>：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">tag_icon:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="打赏功能"><a href="#打赏功能" class="headerlink" title="打赏功能"></a>打赏功能</h3><p>越来越多的平台（微信公众平台、简书、知乎等）支持打赏功能。为了抓住付费阅读的趋势，NexT 增加了打赏功能，支持微信支付、支付宝和比特币。你只需要：</p>
+<ol>
+<li>将你的微信、支付宝、比特币的收款码图像放到 source/images 目录下，或者上传到云端以获取绝对的 HTTP 地址。</li>
+<li>在 <mark class="label primary">主题配置文件</mark> 中设置所需的值：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="comment"># 如果为 true，打赏功能按钮将会默认出现在每篇文章。</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">animation:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#comment: Buy me a coffee</span></span><br><span class="line"></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.png</span></span><br><span class="line">  <span class="attr">alipay:</span> <span class="string">/images/alipay.png</span></span><br><span class="line">  <span class="attr">bitcoin:</span> <span class="string">/images/bitcoin.png</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="关注我"><a href="#关注我" class="headerlink" title="关注我"></a>关注我</h3><figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通过 Telegram Channel，Twitter 等订阅。</span></span><br><span class="line"><span class="comment"># 格式：`Key: permalink || icon` (Font Awesome)</span></span><br><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/username || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#Telegram: https://t.me/channel_name || fab fa-telegram</span></span><br><span class="line">  <span class="comment">#WeChat: /images/wechat_channel.jpg || fab fa-weixin</span></span><br><span class="line">  <span class="comment">#RSS: /atom.xml || fa fa-rss</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h3><p>NexT 根据 <a target="_blank" rel="noopener" href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a> 支持相关文章的功能。</p>
+<p>首先，在网站根目录下执行以下命令安装 hexo-related-popular-posts：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>安装完成后，可以在 <mark class="label primary">主题配置文件</mark> 中设置相关功能：</p>
+<div class="tabs" id="related-popular-posts"><ul class="nav-tabs"><li class="tab active"><a href="#related-popular-posts-1">enable</a></li><li class="tab"><a href="#related-popular-posts-2">title</a></li><li class="tab"><a href="#related-popular-posts-3">display_in_home</a></li><li class="tab"><a href="#related-popular-posts-4">params</a></li></ul><div class="tab-content"><div class="tab-pane active" id="related-popular-posts-1"><p>你可以通过将<code>related_posts.enable</code>的值设置为 true 来启用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="related-popular-posts-2"><p>NexT 默认使用相关文章的标题来显示，你可以通过编辑<code>related_posts.title</code>的值来修改它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">title:</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="related-popular-posts-3"><p>NexT 默认不会在主页显示相关文章，你可以通过将<code>related_posts.display_in_home</code>的值修改为 true 来启用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="related-popular-posts-4"><p>NexT 默认最多显示 5 个不带日期、图片和摘录的相关文章标题。你可以通过<code>related_posts.params</code>来修改：</p>
+<ul>
+<li>列表的最大数量：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br></pre></td></tr></table></figure></li>
+<li>热门文章和相关文章的比例：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br></pre></td></tr></table></figure></li>
+<li>显示相关文章的日期：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">isDate:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>显示相关文章的图片：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">isImage:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+<li>显示相关文章的摘要：<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">isExcerpt:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+</ul></div></div></div>
+
+<h3 id="文章编辑"><a href="#文章编辑" class="headerlink" title="文章编辑"></a>文章编辑</h3><p>NexT 支持文章编辑功能。启用该功能后，用户可以在 GitHub（或其它代码托管平台）上快速浏览和编辑文章源代码。</p>
+<div class="tabs" id="post-edit"><ul class="nav-tabs"><li class="tab active"><a href="#post-edit-1">enable</a></li><li class="tab"><a href="#post-edit-2">url</a></li></ul><div class="tab-content"><div class="tab-pane active" id="post-edit-1"><p>你可以将 <mark class="label primary">主题配置文件</mark> 中的<code>post_edit.enable</code>值修改为 true 来启用它：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_edit:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="post-edit-2"><p>你应该为你的文章创建一个源码仓库。<code>url</code>的设置取决于在 GitHub（或其它代码托管平台） 上的开源项目。</p>
+<ul>
+<li>站点仓库：<ul>
+<li>查看源码链接：<code>url: https://github.com/.../tree/master/source/_posts/</code></li>
+<li>Fork 和编辑链接：<code>url: https://github.com/.../edit/master/source/_posts/</code></li>
+</ul>
+</li>
+<li>文章仓库：<ul>
+<li>查看源码链接：<code>url: https://github.com/.../_posts/tree/master/</code></li>
+<li>Fork 和编辑链接：<code>url: https://github.com/.../_posts/edit/master/</code></li>
+</ul>
+</li>
+</ul></div></div></div>
+
+<h3 id="文章导航"><a href="#文章导航" class="headerlink" title="文章导航"></a>文章导航</h3><p>如果存在，在文章页脚部分显示「上一篇」和「下一篇」。</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">post_navigation:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/next/theme-settings/">THEME-SETTINGS</a></li>
+          <li>POSTS</li>
+        
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">NexT</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/next/js/comments.js"></script><script src="/next/js/utils.js"></script><script src="/next/js/motion.js"></script><script src="/next/js/next-boot.js"></script><script src="/next/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/next/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.2/dist/mermaid.min.js","integrity":"sha256-UIQPVkGifpwMvDH5yGgORJ9sSTDq38zz6BGU6dNaKhM="}}</script>
+  <script src="/next/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/next/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://mopsite.github.io/next/theme-settings/posts/"}</script>
+  <script src="/next/js/third-party/quicklink.js"></script>
+
+</body>
+</html>

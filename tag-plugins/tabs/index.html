@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/next/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/next/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/next/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/next/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/next/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"mopsite.github.io","root":"/next/","images":"/next/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/next/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/next/js/config.js"></script>
+<meta name="description" content="设置next&#x2F;_config.ymltabs:  # 可以切换内容的选项卡。  sticky: false  transition:    tabs: false    labels: true  用法&amp;#123;% tabs Unique name, [index] %&amp;#125;&lt;!-- tab [Tab caption] [@icon] --&gt;任意内容（也支持行内标签）。&lt;">
+<meta property="og:type" content="website">
+<meta property="og:title" content="选项卡">
+<meta property="og:url" content="https://mopsite.github.io/next/tag-plugins/tabs/index.html">
+<meta property="og:site_name" content="Theme NexT">
+<meta property="og:description" content="设置next&#x2F;_config.ymltabs:  # 可以切换内容的选项卡。  sticky: false  transition:    tabs: false    labels: true  用法&amp;#123;% tabs Unique name, [index] %&amp;#125;&lt;!-- tab [Tab caption] [@icon] --&gt;任意内容（也支持行内标签）。&lt;">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-25T08:42:52.000Z">
+<meta property="article:modified_time" content="2021-11-15T17:00:54.305Z">
+<meta property="article:author" content="NexT">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://mopsite.github.io/next/tag-plugins/tabs/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://mopsite.github.io/next/tag-plugins/tabs/index.html","path":"tag-plugins/tabs/index.html","title":"选项卡"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>选项卡 | Theme NexT
+</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/next/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/next/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Theme NexT</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        
+            
+  <li class="menu-item menu-item-开始使用"><a href="/next/getting-start/" rel="section"><i class="fa fa-bell fa-fw"></i>开始使用</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-主题设置"><a href="/next/theme-settings/" rel="section"><i class="fa fa-star fa-fw"></i>主题设置</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-第三方服务"><a href="/next/third-party-services/" rel="section"><i class="fa fa-suitcase fa-fw"></i>第三方服务</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-标签插件"><a href="/next/tag-plugins/" rel="section"><i class="fa fa-tags fa-fw"></i>标签插件</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-高级设置"><a href="/next/advanced-settings/" rel="section"><i class="fa fa-cog fa-fw"></i>高级设置</a></li>
+
+
+      
+        <li class="menu-item menu-item-故障排除"><a href="/next/troubleshooting/" rel="section"><i class="fa fa-times-circle fa-fw"></i>故障排除</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%A8%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">用法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B"><span class="nav-number">3.</span> <span class="nav-text">示例</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BB%98%E8%AE%A4%E9%80%89%E9%A1%B9%E5%8D%A1%E6%A0%87%E9%A2%98"><span class="nav-number">3.1.</span> <span class="nav-text">默认选项卡标题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BB%98%E8%AE%A4%E9%80%89%E4%B8%AD%E7%AC%AC%E4%B8%89%E4%B8%AA%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="nav-number">3.2.</span> <span class="nav-text">默认选中第三个选项卡</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BB%98%E8%AE%A4%E4%B8%8D%E9%80%89%E4%B8%AD%E4%BB%BB%E4%BD%95%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="nav-number">3.3.</span> <span class="nav-text">默认不选中任何选项卡</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%80%89%E9%A1%B9%E5%8D%A1%E6%A0%87%E9%A2%98"><span class="nav-number">3.4.</span> <span class="nav-text">自定义选项卡标题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%85%E6%9C%89%E5%9B%BE%E6%A0%87%E7%9A%84%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="nav-number">3.5.</span> <span class="nav-text">仅有图标的选项卡</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E9%A1%B9%E5%8D%A1%E7%9A%84%E9%94%9A%E7%82%B9%E9%93%BE%E6%8E%A5"><span class="nav-number">3.6.</span> <span class="nav-text">选项卡的锚点链接</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="NexT"
+      src="/next/images/avatar.svg">
+  <p class="site-author-name" itemprop="name">NexT</p>
+  <div class="site-description" itemprop="description">优雅且强大的 Hexo 主题</div>
+</div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title">
+      
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/git" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;git">Git</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/hexo" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;hexo">Hexo</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/fontawesome" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;fontawesome">FontAwesome</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+  
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+
+        
+        <ul class="sub-menu menu">
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-按钮"><a href="/next/tag-plugins/button/" rel="section"><i class="fa fa-cube fa-fw"></i>按钮</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-图片组"><a href="/next/tag-plugins/group-pictures/" rel="section"><i class="fa fa-images fa-fw"></i>图片组</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-标记"><a href="/next/tag-plugins/label/" rel="section"><i class="fa fa-pen-square fa-fw"></i>标记</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-链接网格"><a href="/next/tag-plugins/link-grid/" rel="section"><i class="fa fa-grip-vertical fa-fw"></i>链接网格</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-绘图"><a href="/next/tag-plugins/mermaid/" rel="section"><i class="fa fa-sitemap fa-fw"></i>绘图</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-便签"><a href="/next/tag-plugins/note/" rel="section"><i class="fa fa-sticky-note fa-fw"></i>便签</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-pdf"><a href="/next/tag-plugins/pdf/" rel="section"><i class="fa fa-file-pdf fa-fw"></i>PDF</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-选项卡"><a href="/next/tag-plugins/tabs/" rel="section"><i class="fa fa-adjust fa-fw"></i>选项卡</a></li>
+
+
+          
+        </ul>
+        
+
+        
+        
+      
+
+      
+      
+  
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">选项卡
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/next/tag-plugins/">TAG-PLUGINS</a></li>
+          <li>TABS</li>
+        
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">tabs:</span></span><br><span class="line">  <span class="comment"># 可以切换内容的选项卡。</span></span><br><span class="line">  <span class="attr">sticky:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">transition:</span></span><br><span class="line">    <span class="attr">tabs:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">labels:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">任意内容（也支持行内标签）。</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Unique name：标签块的唯一名称，不能带有逗号。将用作每个标签的 id 及其索引号的前缀。如果名称中含有空格，将会在 id 中把空格替换为短横线。仅对文章或页面的当前链接必须是唯一的。</li>
+<li>[index]：可选参数。激活选项卡的索引号。如果未指定，默认选中第一个选项卡。如果设置为 -1，则不会选中任何选项卡。</li>
+<li>[Tab caption]：可选参数。当前选项卡的标题。如果未指定，则将后缀带有索引号的 Unique name 作为标题。如果没有指定标题，而是指定了图标，标题将为空。</li>
+<li>[@icon]：可选参数。Font Awesome 图标名称。与其他参数不受空格影响，例如<code>Tap caption @icon</code>和<code>Tab caption@icon</code>相同。</li>
+</ul>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><h4 id="默认选项卡标题"><a href="#默认选项卡标题" class="headerlink" title="默认选项卡标题"></a>默认选项卡标题</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs First unique name %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<h4 id="默认选中第三个选项卡"><a href="#默认选中第三个选项卡" class="headerlink" title="默认选中第三个选项卡"></a>默认选中第三个选项卡</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Second unique name, 3 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs" id="second-unique-name"><ul class="nav-tabs"><li class="tab"><a href="#second-unique-name-1">Second unique name 1</a></li><li class="tab"><a href="#second-unique-name-2">Second unique name 2</a></li><li class="tab active"><a href="#second-unique-name-3">Second unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="second-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="second-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane active" id="second-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<h4 id="默认不选中任何选项卡"><a href="#默认不选中任何选项卡" class="headerlink" title="默认不选中任何选项卡"></a>默认不选中任何选项卡</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Third unique name, -1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs" id="third-unique-name"><ul class="nav-tabs"><li class="tab"><a href="#third-unique-name-1">Third unique name 1</a></li><li class="tab"><a href="#third-unique-name-2">Third unique name 2</a></li><li class="tab"><a href="#third-unique-name-3">Third unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="third-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="third-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="third-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<h4 id="自定义选项卡标题"><a href="#自定义选项卡标题" class="headerlink" title="自定义选项卡标题"></a>自定义选项卡标题</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Fourth unique name %&#125;</span><br><span class="line">&lt;!-- tab Solution 1 --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Solution 2 --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Solution 3 --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs" id="fourth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#fourth-unique-name-1">Solution 1</a></li><li class="tab"><a href="#fourth-unique-name-2">Solution 2</a></li><li class="tab"><a href="#fourth-unique-name-3">Solution 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="fourth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="fourth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="fourth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<h4 id="仅有图标的选项卡"><a href="#仅有图标的选项卡" class="headerlink" title="仅有图标的选项卡"></a>仅有图标的选项卡</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Fifth unique name %&#125;</span><br><span class="line">&lt;!-- tab @text-width --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab @font --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab @bold --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs" id="fifth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#fifth-unique-name-1"><i class="fa fa-text-width"></i></a></li><li class="tab"><a href="#fifth-unique-name-2"><i class="fa fa-font"></i></a></li><li class="tab"><a href="#fifth-unique-name-3"><i class="fa fa-bold"></i></a></li></ul><div class="tab-content"><div class="tab-pane active" id="fifth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="fifth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="fifth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<h4 id="选项卡的锚点链接"><a href="#选项卡的锚点链接" class="headerlink" title="选项卡的锚点链接"></a>选项卡的锚点链接</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Permalink for &gt; [Tab one](#tab-one).</span><br><span class="line">Permalink for &gt; [Tab one 1](#tab-one-1).</span><br><span class="line">Permalink for &gt; [Tab one 2](#tab-one-2).</span><br><span class="line">Permalink for &gt; [Tab one 3](#tab-one-3).</span><br><span class="line"></span><br><span class="line">Permalink for &gt; [Tab two](#tab-two).</span><br><span class="line">Permalink for &gt; [Tab two 1](#tab-two-1).</span><br><span class="line">Permalink for &gt; [Tab two 2](#tab-two-2).</span><br><span class="line">Permalink for &gt; [Tab two 3](#tab-two-3).</span><br><span class="line"></span><br><span class="line">&#123;% tabs Tab one %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% tabs Tab two %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Permalink for &gt; <a href="#tab-one">Tab one</a>.<br>Permalink for &gt; <a href="#tab-one-1">Tab one 1</a>.<br>Permalink for &gt; <a href="#tab-one-2">Tab one 2</a>.<br>Permalink for &gt; <a href="#tab-one-3">Tab one 3</a>.</p>
+<p>Permalink for &gt; <a href="#tab-two">Tab two</a>.<br>Permalink for &gt; <a href="#tab-two-1">Tab two 1</a>.<br>Permalink for &gt; <a href="#tab-two-2">Tab two 2</a>.<br>Permalink for &gt; <a href="#tab-two-3">Tab two 3</a>.</p>
+<div class="tabs" id="tab-one"><ul class="nav-tabs"><li class="tab active"><a href="#tab-one-1">Tab one 1</a></li><li class="tab"><a href="#tab-one-2">Tab one 2</a></li><li class="tab"><a href="#tab-one-3">Tab one 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-one-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="tab-one-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="tab-one-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<div class="tabs" id="tab-two"><ul class="nav-tabs"><li class="tab active"><a href="#tab-two-1">Tab two 1</a></li><li class="tab"><a href="#tab-two-2">Tab two 2</a></li><li class="tab"><a href="#tab-two-3">Tab two 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-two-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="tab-two-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="tab-two-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/next/tag-plugins/">TAG-PLUGINS</a></li>
+          <li>TABS</li>
+        
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">NexT</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/next/js/comments.js"></script><script src="/next/js/utils.js"></script><script src="/next/js/motion.js"></script><script src="/next/js/next-boot.js"></script><script src="/next/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/next/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.2/dist/mermaid.min.js","integrity":"sha256-UIQPVkGifpwMvDH5yGgORJ9sSTDq38zz6BGU6dNaKhM="}}</script>
+  <script src="/next/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/next/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://mopsite.github.io/next/tag-plugins/tabs/"}</script>
+  <script src="/next/js/third-party/quicklink.js"></script>
+
+</body>
+</html>

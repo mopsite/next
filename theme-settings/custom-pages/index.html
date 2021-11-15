@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/next/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/next/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/next/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/next/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/next/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"mopsite.github.io","root":"/next/","images":"/next/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/next/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/next/js/config.js"></script>
+<meta name="description" content="NexT 允许用户在菜单中添加自定义页面。 添加新页面 →设置 Front-matter →编辑菜单在终端切换到网站根目录，使用 hexo new page custom-name 命令来创建一个新的自定义页面： cd hexo-sitehexo new page custom-name你可以在 custom-name&#x2F;index.md 文件中修改或添加 Front-matter 的内容，参见 F">
+<meta property="og:type" content="website">
+<meta property="og:title" content="自定义页面">
+<meta property="og:url" content="https://mopsite.github.io/next/theme-settings/custom-pages/index.html">
+<meta property="og:site_name" content="Theme NexT">
+<meta property="og:description" content="NexT 允许用户在菜单中添加自定义页面。 添加新页面 →设置 Front-matter →编辑菜单在终端切换到网站根目录，使用 hexo new page custom-name 命令来创建一个新的自定义页面： cd hexo-sitehexo new page custom-name你可以在 custom-name&#x2F;index.md 文件中修改或添加 Front-matter 的内容，参见 F">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-24T04:29:52.000Z">
+<meta property="article:modified_time" content="2021-11-15T17:00:54.305Z">
+<meta property="article:author" content="NexT">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://mopsite.github.io/next/theme-settings/custom-pages/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://mopsite.github.io/next/theme-settings/custom-pages/index.html","path":"theme-settings/custom-pages/index.html","title":"自定义页面"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>自定义页面 | Theme NexT
+</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/next/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/next/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Theme NexT</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        
+            
+  <li class="menu-item menu-item-开始使用"><a href="/next/getting-start/" rel="section"><i class="fa fa-bell fa-fw"></i>开始使用</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-主题设置"><a href="/next/theme-settings/" rel="section"><i class="fa fa-star fa-fw"></i>主题设置</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-第三方服务"><a href="/next/third-party-services/" rel="section"><i class="fa fa-suitcase fa-fw"></i>第三方服务</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-标签插件"><a href="/next/tag-plugins/" rel="section"><i class="fa fa-tags fa-fw"></i>标签插件</a></li>
+
+
+      
+        
+            
+  <li class="menu-item menu-item-高级设置"><a href="/next/advanced-settings/" rel="section"><i class="fa fa-cog fa-fw"></i>高级设置</a></li>
+
+
+      
+        <li class="menu-item menu-item-故障排除"><a href="/next/troubleshooting/" rel="section"><i class="fa fa-times-circle fa-fw"></i>故障排除</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E3%80%8C%E5%BD%92%E6%A1%A3%E3%80%8D%E9%A1%B5%E9%9D%A2%E4%BD%9C%E4%B8%BA%E9%A6%96%E9%A1%B5"><span class="nav-number">1.</span> <span class="nav-text">将「归档」页面作为首页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E3%80%8C%E6%A0%87%E7%AD%BE%E3%80%8D%E9%A1%B5%E9%9D%A2"><span class="nav-number">2.</span> <span class="nav-text">添加「标签」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E3%80%8C%E5%88%86%E7%B1%BB%E3%80%8D%E9%A1%B5%E9%9D%A2"><span class="nav-number">3.</span> <span class="nav-text">添加「分类」页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89-404-%E9%A1%B5%E9%9D%A2"><span class="nav-number">4.</span> <span class="nav-text">自定义 404 页面</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="NexT"
+      src="/next/images/avatar.svg">
+  <p class="site-author-name" itemprop="name">NexT</p>
+  <div class="site-description" itemprop="description">优雅且强大的 Hexo 主题</div>
+</div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title">
+      
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/git" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;git">Git</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/hexo" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;hexo">Hexo</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://mopsite.github.io/fontawesome" title="https:&#x2F;&#x2F;mopsite.github.io&#x2F;fontawesome">FontAwesome</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+  
+
+      
+      
+
+      
+
+        
+        <ul class="sub-menu menu">
+          
+            
+          
+          
+              
+  <li class="menu-item menu-item-侧边栏"><a href="/next/theme-settings/sidebar/" rel="section"><i class="fa fa-bars fa-fw"></i>侧边栏</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-页脚"><a href="/next/theme-settings/footer/" rel="section"><i class="fa fa-sticky-note fa-fw"></i>页脚</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-文章"><a href="/next/theme-settings/posts/" rel="section"><i class="fa fa-paragraph fa-fw"></i>文章</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-自定义页面"><a href="/next/theme-settings/custom-pages/" rel="section"><i class="fa fa-swatchbook fa-fw"></i>自定义页面</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-其它设置"><a href="/next/theme-settings/miscellaneous/" rel="section"><i class="fa fa-university fa-fw"></i>其它设置</a></li>
+
+
+          
+          
+              
+  <li class="menu-item menu-item-国际化"><a href="/next/theme-settings/internationalization/" rel="section"><i class="fa fa-globe fa-fw"></i>国际化</a></li>
+
+
+          
+        </ul>
+        
+
+        
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+  
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">自定义页面
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/next/theme-settings/">THEME-SETTINGS</a></li>
+          <li>CUSTOM-PAGES</li>
+        
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <p>NexT 允许用户在菜单中添加自定义页面。</p>
+<div class="tabs" id="custom1"><ul class="nav-tabs"><li class="tab active"><a href="#custom1-1">添加新页面 →</a></li><li class="tab"><a href="#custom1-2">设置 Front-matter →</a></li><li class="tab"><a href="#custom1-3">编辑菜单</a></li></ul><div class="tab-content"><div class="tab-pane active" id="custom1-1"><p>在终端切换到网站根目录，使用 <code>hexo new page custom-name</code> 命令来创建一个新的自定义页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd hexo-site</span><br><span class="line">hexo new page custom-name</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="custom1-2"><p>你可以在 custom-name/index.md 文件中修改或添加 Front-matter 的内容，参见 <a target="_blank" rel="noopener" href="https://mopsite.gitee.io/hexo/usage/front-matter/">Front-matter</a>。</p>
+<figure class="highlight yml"><figcaption><span>title: custom-name</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">date:</span> <span class="number">2014-12-22 12:39:04</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="custom1-3"><p>在 <mark class="label primary">主题配置文件</mark> 的<code>menu</code>选项中添加 custom-name，例如添加「关于」页面：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<h3 id="将「归档」页面作为首页"><a href="#将「归档」页面作为首页" class="headerlink" title="将「归档」页面作为首页"></a>将「归档」页面作为首页</h3><p>你可以在 <mark class="label info">站点配置文件</mark> 中配置「归档」页面的路径和索引生成器。</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_dir:</span> <span class="string">/</span></span><br><span class="line"></span><br><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">archives</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="添加「标签」页面"><a href="#添加「标签」页面" class="headerlink" title="添加「标签」页面"></a>添加「标签」页面</h3><p>新建「标签」页面，并在菜单中显示「标签」链接。「标签」页面将展示网站的所有标签，如果文章没有标签，此页面将为空。</p>
+<div class="tabs" id="custom2"><ul class="nav-tabs"><li class="tab active"><a href="#custom2-1">添加新页面 →</a></li><li class="tab"><a href="#custom2-2">设置页面类型 →</a></li><li class="tab"><a href="#custom2-3">编辑菜单</a></li></ul><div class="tab-content"><div class="tab-pane active" id="custom2-1"><p>在终端中切换到网站根目录，使用<code>hexo new page tags</code>命令创建一个新的「标签」页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd hexo-site</span><br><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="custom2-2"><p>编辑新页面，并将类型改为<code>tags</code>，主题将在此页面中自动显示标签云：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Tags</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2014-12-22 12:39:04</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="custom2-3"><p>将<code>tags</code>添加到 <mark class="label primary">主题配置文件</mark> 的<code>menu</code>选项中，如下所示：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br></pre></td></tr></table></figure></div></div></div>
+
+<div class="note warning no-icon"><p>如果有集成评论服务，页面也会带有评论。如果要关闭，在 Front-matter 中添加<code>comments</code>，并设置为 false。</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">标签</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2014-12-22 12:39:04</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">&quot;tags&quot;</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></div>
+
+<p>NexT 默认已在「标签」页面中设置了标签云的字体大小和颜色，从 NexT v7.0.2 开始，你可以自定义它们：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># 「标签」页面中设置标签云</span></span><br><span class="line"><span class="attr">tagcloud:</span></span><br><span class="line">  <span class="attr">min:</span> <span class="number">12</span> <span class="comment"># 最小字号，以px为单位</span></span><br><span class="line">  <span class="attr">max:</span> <span class="number">30</span> <span class="comment"># 最大字号，以px为单位</span></span><br><span class="line">  <span class="attr">amount:</span> <span class="number">200</span> <span class="comment"># 标签总数</span></span><br><span class="line">  <span class="attr">orderby:</span> <span class="string">name</span> <span class="comment"># 标签顺序</span></span><br><span class="line">  <span class="attr">order:</span> <span class="number">1</span> <span class="comment"># 标签排序</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="添加「分类」页面"><a href="#添加「分类」页面" class="headerlink" title="添加「分类」页面"></a>添加「分类」页面</h3><p>添加「分类」页面与添加「标签」页面方法一样，只是名称不同。只需将 tags 替换成 categories 即可。</p>
+<h3 id="自定义-404-页面"><a href="#自定义-404-页面" class="headerlink" title="自定义 404 页面"></a>自定义 404 页面</h3><p>在终端中切换到网站根目录，新建一个名叫 404 的页面：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd hexo-site</span><br><span class="line">hexo new page 404</span><br></pre></td></tr></table></figure>
+
+<p>确保禁用了 <mark class="label info">站点配置文件</mark> 中的<code>relative_link</code>：</p>
+<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">relative_link:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<div class="note warning"><p>用户是否可以重定向到 404 页面，取决于网站托管服务或 Web 服务器的设置，而不是 Hexon。比如你使用 Nginx 作为服务器，还需要在 nginx.conf 文件中配置 404 页面。</p>
+</div>
+
+<p>如果你想启用腾讯提供的公益 404 服务，可以像下面这样在 404/index.md 中编辑：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">&#x27;404&#x27;</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2014-12-22 12:39:04</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">&lt;script</span> <span class="string">src=&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot;</span></span><br><span class="line">        <span class="string">charset=&quot;utf-8&quot;</span> <span class="string">homePageUrl=&quot;/&quot;</span> <span class="string">homePageName=&quot;Back</span> <span class="string">to</span> <span class="string">home&quot;&gt;</span></span><br><span class="line"><span class="string">&lt;/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>你也可以添加任何你想要的内容。</p>
+<p>最后，在 <mark class="label primary">主题配置文件</mark> 的<code>menu</code>选项中添加<code>404</code>即可：</p>
+<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">commonweal:</span> <span class="string">/404/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-heartbeat</span></span><br></pre></td></tr></table></figure>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/next/theme-settings/">THEME-SETTINGS</a></li>
+          <li>CUSTOM-PAGES</li>
+        
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">NexT</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/next/js/comments.js"></script><script src="/next/js/utils.js"></script><script src="/next/js/motion.js"></script><script src="/next/js/next-boot.js"></script><script src="/next/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/next/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.2/dist/mermaid.min.js","integrity":"sha256-UIQPVkGifpwMvDH5yGgORJ9sSTDq38zz6BGU6dNaKhM="}}</script>
+  <script src="/next/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/next/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://mopsite.github.io/next/theme-settings/custom-pages/"}</script>
+  <script src="/next/js/third-party/quicklink.js"></script>
+
+</body>
+</html>
